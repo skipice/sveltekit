@@ -1,4 +1,3 @@
-// drizzle schema file
 import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
 
 export const authors = sqliteTable("authors", {
